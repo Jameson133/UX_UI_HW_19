@@ -9,6 +9,7 @@
 
 h1 {text-align: center;}
 h2 {padding-left: 50px}
+h3 {font-size: larger;}
 
 .navigation {
     display:grid;
@@ -65,7 +66,9 @@ div.flexContainer {
     color:white;
     justify-content: center;
 }
-
+#PCASgroup {
+    background-color: #d30707;
+}
 #PCASimg, #JLimg, #DOLimg {
     background-color: #083B66;
     padding:10px 20px;
@@ -111,7 +114,9 @@ div.flexContainer {
 }
 
 #TTtext { grid-area: a8;
-    width: 250px
+    width: 250px;
+    color: black;
+
 }
 
 
